@@ -1,12 +1,13 @@
 [project]
-name = "llm-engineering-in-100-lines"
+name = "skeptics-guide-to-llm-engineering"
 version = "0.1.0"
-description = "19 self-contained Python POCs exploring LLM engineering from first API call to MCP protocols"
+description = "Build LLM applications in standalone Python scripts with zero frameworks."
 requires-python = ">=3.10"
 dependencies = [
     "requests==2.34.2",
     "ollama==0.6.2",
     "colorama==0.4.6",
+    "marimo==0.23.13",
 ]
 
 [project.optional-dependencies]

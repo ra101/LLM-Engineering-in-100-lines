@@ -17,6 +17,18 @@ So, we are going to use simple stuff.
 - [Ollama](https://github.com/ollama/ollama-python): Probably the lightest framework, Extremely easy to login and there are some free-tier cloud models.
 - [Marimo Notebook](https://github.com/marimo-team/marimo): A modern, reactive replacement for Jupyter that is actually reproducible and far easier on the eyes.
 
+## Setup
+
+```shell
+# Create Virtual Environment
+ls venv || uv venv venv
+source venv/bin/activate
+
+# Install Python Project & Dependencies
+uv pip install -e .
+```
+
+
 <div align="center">
   <h3> Built with <b>🤔</b> by<b>〈 RA 〉</b></h3>
 </div>
